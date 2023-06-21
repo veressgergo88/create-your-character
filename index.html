@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+    <title>Create Your Character</title>
+</head>
+<body>
+<main>
+    <header>
+        <h1>CREATE YOUR CHARACTER</h1>
+    </header>
+    <section>
+        <article id="left-article">
+            <form>
+                <label for="chname"><h2>CHARACTER NAME</h2></label>
+                <input type="text" id="input-char-name" name="chname" maxlength="20">
+                <label for="gender"><h2>CHARACTER RACE & GENDER</h2></label>
+                    <select name="race" id="race">
+                        <option value="dwarf-male">DWARF-MALE</option>
+                        <option value="dwarf-female">DWARF-FEMALE</option>
+                        <option value="elf-male">ELF-MALE</option>
+                        <option value="elf-female">ELF-FEMALE</option>
+                        <option value="hobbit-male">HOBBIT-MALE</option>
+                        <option value="hobbit-female">HOBBIT-FEMALE</option>
+                        <option value="human-male">HUMAN-MALE</option>
+                        <option value="human-female">HUMAN-FEMALE</option>
+                    </select>
+                <label for="gender"><h2>CHARACTER CLASS</h2></label>
+                    <select name="class" id="class">
+                        <option value="beorning">BEORNING</option>
+                        <option value="brawler">BRAWLER</option>
+                        <option value="burglar">BURGLAR</option>
+                        <option value="captain">CAPTAIN</option>
+                        <option value="champion">CHAMPION</option>
+                        <option value="guardian">GUARDIAN</option>
+                        <option value="hunter">HUNTER</option>
+                        <option value="lore-master">LORE-MASTER</option>
+                        <option value="minstrel">MINSTREL</option>
+                        <option value="rune-keeper">RUNE-KEEPER</option>
+                        <option value="warden">WARDEN</option>
+                    </select>
+            </form>
+        </article>
+        <article id="right-article">
+            <div id="name-box">
+                <h3 id="output-char-name"></h3>
+            </div>
+            <div id="character-box">
+                <img id="character-img" src="" style="display: none">
+            </div>
+            <div id="class-box">
+                <img id="class-img" src="" style="display: none">
+            </div>
+        </article>
+    </section>
+</main>
+</body>
+</html>

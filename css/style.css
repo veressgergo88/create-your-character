@@ -1,0 +1,162 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 1.6rem;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+/* -- BODY, MAIN, SECTION, ARCTICLE -- */
+@font-face {
+    font-family: Middlearth;
+    src: url(../font/Middleearth-ao6m.ttf);
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat center/100% url("../img/wallpaper.jpg");
+    font-family: Middlearth;
+}
+
+main {
+    width: 72em;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    box-shadow: -1px 0px 36px 21px rgba(0,0,0,0.88);
+    -webkit-box-shadow: -1px 0px 36px 21px rgba(0,0,0,0.88);
+    -moz-box-shadow: -1px 0px 36px 21px rgba(0,0,0,0.88);
+}
+
+header {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section {
+    height: 80%;
+    display: flex;
+}
+
+article {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -- CREATE CHARACTER -- */
+#left-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4em;
+    width: 50%;
+}
+
+#left-article h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#left-article input {
+    margin-bottom: 1.5rem;
+}
+
+#left-article select {
+    margin-bottom: 1.5rem;
+}
+
+/* -- FINISHED CHARACTER -- */
+#right-article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#name-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+
+#name-box h3 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+#character-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+}
+
+#character-img {
+    width: 22em;
+    height: 22em;
+}
+
+#class-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+#class-img {
+    width: 6em;
+    height: 7em;
+    padding: 1em 0;
+}
