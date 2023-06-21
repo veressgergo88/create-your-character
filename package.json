@@ -1,0 +1,14 @@
+{
+  "name": "create-your-character-javascript-veressgergo88",
+  "version": "1.0.0",
+  "description": "You are working in an online game developer company that is about to release a new RPG game.\r In the developer team, you've got the task to implement the character creation part.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
